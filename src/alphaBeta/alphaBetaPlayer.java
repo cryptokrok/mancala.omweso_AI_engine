@@ -1,4 +1,4 @@
-package s260500612;
+package alphaBeta;
 
 import boardgame.Board;
 import boardgame.BoardState;
@@ -12,12 +12,12 @@ import java.util.ArrayList;
 import java.util.Random;
 
 /* Mini Max Algorithm with Alpha Beta Pruning */
-public class s260500612Player extends Player {
+public class alphaBetaPlayer extends Player {
 
-    static private String default_name = "260500612";
+    static private String default_name = "alphaBeta";
 
-    public s260500612Player() { super(default_name); }
-    public s260500612Player(String s) { super(s); }
+    public alphaBetaPlayer() { super(default_name); }
+    public alphaBetaPlayer(String s) { super(s); }
 
     public Board createBoard() { return new CCBoard(); }
 

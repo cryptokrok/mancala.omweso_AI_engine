@@ -38,10 +38,7 @@ implements BoardPanel.BoardPanelListener  {
     /** The list of games for which servers can be launched */
     protected static final String[] BOARD_CLASSES = {"omweso.CCBoard"};
     /** The list of players that can be launched */
-    protected static final String[] PLAYER_CLASSES = {
-        "omweso.CCRandomPlayer", "omweso.CCInfinitePlayer", "omweso.CCMinimax", "omweso.CCMinimaxDeep",
-        "omweso.CCSlowPlayer", "omweso.CCVerySlowPlayer", "omweso.CCSlowStartPlayer",
-        "omweso.CCVerySlowStartPlayer", "s260500612.s260500612Player"};
+    protected static final String[] PLAYER_CLASSES = {"omweso.CCRandomPlayer", "alphaBeta.alphaBetaPlayer"};
 
     private static final int BOARD_SIZE = 400;
     private static final int LIST_WIDTH = 280;
